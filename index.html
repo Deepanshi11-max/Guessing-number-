@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Number Guessing Game </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>mine number guessing game</h1>
+        <section class="box">
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ8rwN1H9PmYLahTavFkmVh7lIdCFleRbU5Q&usqp=CAU" alt="">
+            </div>
+            <div class="text">
+                <h3> let's Guess the number  between 1 to 10</h3>
+                <section class="input-box">
+                    <input type="text"   id="number">
+                </section>
+                <section class="button-box">
+                    <button  onclick="check()">
+                        check
+                    </button>
+                </section>
+            </div>
+        </section>
+    </div>
+    <div class="winContainer" id="winContainer">
+        
+    </div>
+    <div class="loseContainer" id="loseContainer">
+    <h2>
+            <span style="color: rgb(87, 7, 7);"> oops!</span> Try Again....
+        </h2>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
